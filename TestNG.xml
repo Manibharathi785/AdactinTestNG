@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Login Suite">
+	<!--parallel="methods" thread-count="2">-->
+	<!--<listeners>
+		<listener class-name=""></listener>
+	</listeners>-->
+	<test name="Login Testcases">
+		<!--<parameter name="Name" value="Azeem"></parameter>
+		<parameter name="Number" value="9"></parameter>-->
+		<groups>
+			<run>
+				<!--<include name="RAM = 128"></include>-->
+			</run>
+		</groups>
+		<classes>
+			<class name="Adactin.LoginTestCases"></class>
+			<!--<class name="Practice.Parameterization"></class>-->
+			<!--<class name="Practice.BeforeAndAfterSuite"></class>
+			<class name="Practice.Priority"></class>
+			<class name="Practice.ExcelConnect"></class>-->
+			<!--<class name="Practice.Grouping"></class>-->
+		</classes>
+	</test>
+</suite>

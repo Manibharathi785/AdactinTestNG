@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="850" started-at="2023-06-12T11:24:18 IST" finished-at="2023-06-12T11:24:19 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="850" started-at="2023-06-12T11:24:18 IST" finished-at="2023-06-12T11:24:19 IST">
+      <class name="Practice.ExcelConnect">
+        <test-method status="PASS" signature="readSingleData()[pri:1, instance:Practice.ExcelConnect@34c4973]" name="readSingleData" duration-ms="720" started-at="2023-06-12T11:24:18 IST" finished-at="2023-06-12T11:24:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readSingleData -->
+        <test-method status="PASS" signature="readMultipleData()[pri:2, instance:Practice.ExcelConnect@34c4973]" name="readMultipleData" duration-ms="72" started-at="2023-06-12T11:24:19 IST" finished-at="2023-06-12T11:24:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readMultipleData -->
+      </class> <!-- Practice.ExcelConnect -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
